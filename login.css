@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(image\ copy.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+fieldset {
+    background-image: url(image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    border: none; /* Add this line if you want to remove the border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Optional: add a shadow for better visibility */
+    border-radius: 30px;
+}
+
+.masuk {
+    text-align: center;
+}
+
+.hasillogin {
+    color: rgb(240, 243, 246);
+}
+
+button {
+    background-color: rgb(248, 202, 180);
+    color: rgb(4, 4, 3);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%; /* Full width of the button */
+    text-align: center;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.8); /* Corrected hover color syntax */
+}
+.lebel {
+    text-align: center;
+}
+input{
+    border-radius: 40px;
+}
